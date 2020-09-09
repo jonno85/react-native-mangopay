@@ -1,0 +1,22 @@
+{
+  "name": "react-native-mangopay-example",
+  "displayName": "Mangopay Example",
+  "expo": {
+    "name": "react-native-mangopay-example",
+    "slug": "react-native-mangopay-example",
+    "description": "Example app for react-native-mangopay",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
