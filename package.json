@@ -1,0 +1,33 @@
+{
+  "name": "@jonno85/mangopay-client-react",
+  "version": "1.0.0",
+  "description": "Mangopay React and React Native First JS Client library with card registration workflow. Updated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonno85/react-native-mangopay.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "javascript",
+    "async",
+    "promise",
+    "card-registration",
+    "mangopay"
+  ],
+  "author": "Jonathan Filippini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonno85/react-native-mangopay/issues"
+  },
+  "homepage": "https://github.com/jonno85/react-native-mangopay#readme",
+  "dependencies": {
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
