@@ -1,6 +1,6 @@
 {
   "name": "react-native-mangopay",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Mangopay React Native First JS Client library with card registration workflow and card form",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -33,7 +33,13 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "card-registration",
+    "mangopay",
+    "flip",
+    "card",
+    "react-component-credit-card",
+    "react-native-credit-card-component"
   ],
   "repository": "https://github.com/jonno85/react-native-mangopay",
   "author": "Jonathan Filippini <filippini.jo@gmail.com> (https://github.com/jonno85)",
@@ -117,7 +123,7 @@
     ],
     "rules": {
       "prettier/prettier": [
-        "warn",
+        "off",
         {
           "quoteProps": "consistent",
           "singleQuote": true,

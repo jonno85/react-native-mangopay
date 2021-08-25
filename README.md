@@ -1,6 +1,13 @@
 # react-native-mangopay
 
-Mangopay React Native First JS Client library with card registration workflow and card form
+Mangopay React Native First JS Client library with card registration workflow and card form.
+This project merge the content from other 2 projects:
+- https://www.npmjs.com/package/react-native-credit-card-fullpage-form
+- https://github.com/ignivalancy/mangopay-client-react
+
+the project have been updated:
+- to use Bearer token for MangoPay js client 
+- recent react-native flow
 
 ## Installation
 
@@ -15,7 +22,15 @@ import Mangopay from "react-native-mangopay";
 
 // ...
 
-const result = await Mangopay.multiply(3, 7);
+const MangoPayClient = Mangopay.Client.getInstance('your client id', 'oauth2 token', 'mango pay user id');
+const preRegData = await Mangopay.Client.getCardRegisterationData(cardRegData);
+const result = await Mangopay.Client.ButtonregisterCard(preRegData, cardData);
+
+// Graphical component are available through
+
+<Mangopay.CreditCardInput onChange={() => {}} />
+<Mangopay.LiteCreditCardInput onChange={() => {}} />
+
 ```
 
 ## Contributing

@@ -77,6 +77,8 @@ export default class Networking {
             }
 
             let parameters = '';
+            xmlhttp.setRequestHeader("Access-Control-Allow-Origin",
+                    "https://homologation-webpayment.payline.com, https://api.sandbox.mangopay.com, https://api.mangopay.com");
 
             if (auth) {
                 parameters = JSON.stringify(data);
